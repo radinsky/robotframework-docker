@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update
-RUN apt-get install -y python-pip python-dev gcc phantomjs libssl-dev
+RUN apt-get install -y python-pip python-dev gcc libssl-dev libffi-dev
 RUN pip install --upgrade pip
 RUN pip install robotframework
 RUN pip install pycrypto
