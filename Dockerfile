@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+MAINTAINER Alex Radinsky <radinsky@gmail.com>
 
 RUN apt-get update
 RUN apt-get install -y python-pip python-dev gcc libssl-dev libffi-dev
